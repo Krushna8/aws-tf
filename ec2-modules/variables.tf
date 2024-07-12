@@ -25,8 +25,8 @@ variable "security_group_ids" {
   type        = list(string)
 }
 
-variable "key_name" {
+/*variable "key_name" {
   description = "Key name to use for the instance"
   type        = string
   default     = null
-}
+}*/

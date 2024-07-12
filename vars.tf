@@ -34,8 +34,8 @@ variable "PUB_Key_Path" {
   
 }
 
-variable "key_name" {
+/*variable "key_name" {
   description = "Key name to use for the instance"
   type        = string
   default     = null
-}
+} */
