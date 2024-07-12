@@ -24,18 +24,9 @@ variable "security_group_ids" {
   description = "Security group IDs to associate with the instance"
   type        = list(string)
 }
-variable "PVT_Key_Path" {
-    description = "Path For Private Key"
-    default = "tfkey"
-  
-}
-variable "PUB_Key_Path" {
-    description = "tfkey.pub"
-  
-}
 
-/*variable "key_name" {
+variable "key_name" {
   description = "Key name to use for the instance"
   type        = string
   default     = null
-} */
+} 
